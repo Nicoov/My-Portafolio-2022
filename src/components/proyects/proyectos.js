@@ -20,7 +20,7 @@ const Proyectos = () => {
                     <div className='face back'>
                         <p>2021</p>
                         <p> {t('about-pro')}</p>
-                        <p> JavaScript-React</p>
+                        <p> JavaScript - React - Css - Firebase</p>
                         <div className='link'>
                             <a href='https://www.tenis-up.cl' rel="noreferrer" target='_blank'>
                                 <button>{t('view')}</button>
@@ -35,7 +35,7 @@ const Proyectos = () => {
                     <div className='face back'>
                         <p>2022</p>
                         <p> {t('about-pro-2')}</p>
-                        <p> JavaScript-React</p>
+                        <p> JavaScript - Themoviedb API</p>
                         <div className='link'>
                             <a href='https://github.com/Nicoov/Anya-bot' rel="noreferrer" target='_blank'>
                                 <button>{t("view-2")}</button>

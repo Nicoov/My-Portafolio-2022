@@ -53,7 +53,7 @@ const Proyectos = () => {
                         <p> {t('about-pro-3')}</p>
                         <p> JavaScript - MySQL</p>
                         <div className='link'>
-                            <a href='https://github.com/Nicoov/Anya-bot' rel="noreferrer" target='_blank'>
+                            <a href='https://github.com/Nicoov/Tienda-Bsale' rel="noreferrer" target='_blank'>
                                 <button>{t("view-3")}</button>
                             </a>
                         </div>

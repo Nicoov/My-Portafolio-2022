@@ -14,8 +14,10 @@ i18n.use(initReactI18next).init({
                 "proyectos": "Proyectos realizados",
                 "about-pro": "En mi práctica profesional trabaje en TenisUp que es una aplicación web y móvil sobre la comunidad del tenis, donde se encuentran torneos, canchas y jugadores.",
                 'about-pro-2': "Creación de un bot de discord propio para mostrar la información de doramas como su descripción, valoración e imagen.",
+                'about-pro-3': "Creación de un supermercado utilizando JavaScript puro y consultas MySQL para la obtención de los productos.",
                 "view": "Ver proyecto",
                 "view-2": "Ver codigo",
+                "view-3": "Ver codigo",
                 "about": "Ingeniero en informática / Front End JR"
             }
         },
@@ -28,8 +30,10 @@ i18n.use(initReactI18next).init({
                 "proyectos": "Projects completed",
                 "about-pro": "In my internship I worked on TenisUp which is a web and mobile application about the tennis community, where you can find tournaments, courts and players.",
                 'about-pro-2': "Creation of an own discord bot to display dorama information such as description, rating and image.",
+                'about-pro-3': "Creation of a supermarket using pure JavaScript and MySQL queries to obtain the products.",
                 "view": "See proyect",
                 "view-2": "View code",
+                "view-3": "View code",
                 "about": "Computer Engineer / Front End JR"
             }
         }

@@ -43,6 +43,22 @@ const Proyectos = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className='card'>
+                    <div className='face front'>
+                        <img className="front-img" alt='proyecto1' src={discord}></img>
+                    </div>
+                    <div className='face back'>
+                        <p>2022</p>
+                        <p> {t('about-pro-3')}</p>
+                        <p> JavaScript - MySQL</p>
+                        <div className='link'>
+                            <a href='https://github.com/Nicoov/Anya-bot' rel="noreferrer" target='_blank'>
+                                <button>{t("view-3")}</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </>
     )

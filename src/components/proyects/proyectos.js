@@ -2,6 +2,8 @@ import React from 'react';
 import './proyectos.css';
 import tenisup from '../../photos/TenisUp.jpeg';
 import discord from '../../photos/Discord.png'
+import quiz from '../../photos/Quiz.jpg'
+import mercado from '../../photos/Super.png'
 import { useTranslation } from 'react-i18next';
 
 
@@ -46,7 +48,7 @@ const Proyectos = () => {
 
                 <div className='card'>
                     <div className='face front'>
-                        <img className="front-img" alt='proyecto1' src={discord}></img>
+                        <img className="front-img" alt='proyecto1' src={mercado}></img>
                     </div>
                     <div className='face back'>
                         <p>2022</p>
@@ -54,6 +56,21 @@ const Proyectos = () => {
                         <p> JavaScript - MySQL</p>
                         <div className='link'>
                             <a href='https://github.com/Nicoov/Tienda-Bsale' rel="noreferrer" target='_blank'>
+                                <button>{t("view-3")}</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className='face front'>
+                        <img className="front-img" alt='proyecto1' src={quiz}></img>
+                    </div>
+                    <div className='face back'>
+                        <p>2022</p>
+                        <p> {t('about-pro-4')}</p>
+                        <p> JavaScript - React</p>
+                        <div className='link'>
+                            <a href='https://github.com/Nicoov/quiz-aplication' rel="noreferrer" target='_blank'>
                                 <button>{t("view-3")}</button>
                             </a>
                         </div>

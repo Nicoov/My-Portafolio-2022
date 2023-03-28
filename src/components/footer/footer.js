@@ -7,6 +7,7 @@ const Footer = () => {
             <div className='footer-content'>
                 <p>Made with by Nicolas Diaz 👻</p>
             </div>
+            
         </footer>
     )
 }

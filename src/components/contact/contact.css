@@ -1,0 +1,112 @@
+.contacto-container {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+.contacto-title {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px 0 100px
+}
+
+.contacto-title h2 {
+    color: white;
+    font-size: 45px;
+}
+
+
+.card-contacto-linkedin{
+    background-color: #0284c7;
+    width: 25%;
+    margin: 20px;
+    height: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+.card-contacto-git{
+    background-color: #334155;
+    width: 25%;
+    margin: 20px;
+    height: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+.card-contacto-git a{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    place-content: center;
+}
+
+.card-contacto-linkedin a{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    place-content: center;
+}
+
+
+.card-contacto-gmail{
+    background-color: #dc2626;
+    width: 25%;
+    margin: 20px;
+    height: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+.card-contacto-gmail a{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    place-content: center;
+}
+
+
+.card-contacto-gmail:hover{
+    box-shadow: 5px 5px 20px #dc2626;
+    transform: translateY(-3%);
+}
+
+
+
+.card-contacto-git:hover{
+    box-shadow: 5px 5px 20px #334155;
+    transform: translateY(-3%);
+}
+
+.card-contacto-linkedin:hover{
+    box-shadow: 5px 5px 20px #0284c7;
+    transform: translateY(-3%);
+}
+
+
+@media (max-width: 767px) {
+    .contacto-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-contacto-git{
+        width: 70%;
+    }
+
+    .card-contacto-gmail{
+        width: 70%;
+    }
+    .card-contacto-linkedin{
+        width: 70%;
+    }
+}
+

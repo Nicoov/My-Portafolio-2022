@@ -6,6 +6,8 @@ import About from './components/about/About';
 import Knowledge from './components/knowledge/knowledge'
 import Proyectos from './components/proyects/proyectos';
 import Footer from './components/footer/footer';
+import AnimaCursor from './components/cursor/cursoranimated';
+import Contact from './components/contact/contact';
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -22,11 +24,13 @@ function App() {
 
   return (
     <div className="App">
+      <AnimaCursor />
       <Navbar isScrolling={scrollHeight} />
       < Cover />
       <About />
       <Knowledge />
       <Proyectos />
+      <Contact />
       <Footer />
     </div>
   );

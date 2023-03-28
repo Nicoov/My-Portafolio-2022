@@ -3,6 +3,8 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
     /* height: 60vh; */
 }
 

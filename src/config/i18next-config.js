@@ -12,6 +12,7 @@ i18n.use(initReactI18next).init({
                 "tecnologias": "Tecnologías",
                 "text-tecn": "Actualmente estas son las tecnologías con las que tengo conocimiento y las cuales me siento cómodo trabajando. Ahora sigo mejorando mi forma de programar y aprendiendo nuevas tecnologías.",
                 "proyectos": "Proyectos realizados",
+                "Contacto": "Contacto",
                 "about-pro": "En mi práctica profesional trabaje en TenisUp que es una aplicación web y móvil sobre la comunidad del tenis, donde se encuentran torneos, canchas y jugadores.",
                 'about-pro-2': "Creación de un bot de discord propio para mostrar la información de doramas como su descripción, valoración e imagen.",
                 'about-pro-3': "Creación de un supermercado utilizando JavaScript puro y consultas MySQL para la obtención de los productos.",

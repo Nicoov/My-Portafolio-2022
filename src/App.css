@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'nue';
     src: url(fonts/NeueMachina-Regular.otf);
-}
+} */
 
 
 * {
@@ -13,8 +13,10 @@
 body {
     overflow-x: hidden;
     position: relative;
-    font-family: 'nue';
+    /* font-family: 'nue'; */
     background-color: #2F2D2D;
+
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
 }
 
 .App {

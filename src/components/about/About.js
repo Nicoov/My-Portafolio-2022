@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import photo from '../../photos/foto.jpg';
+import photo from '../../photos/Nicoov.jpg';
 import { useTranslation } from 'react-i18next';
 
 const About = () => {

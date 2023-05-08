@@ -33,6 +33,24 @@ const Proyectos = () => {
                 </div>
                 <div className='card'>
                     <div className='face front'>
+                        <img className="front-img" alt='proyecto1' src={anime}></img>
+                    </div>
+                    <div className='face back'>
+                        <p>2023</p>
+                        <p> {t('about-pro-5')}</p>
+                        <p> JavaScript - React - Jikan Api</p>
+                        <div className='link'>
+                            <a href='https://github.com/Nicoov/animelist' rel="noreferrer" target='_blank'>
+                                <button>{t("view-3")}</button>
+                            </a>
+                            <a href='https://animelistweb.vercel.app' rel="noreferrer" target='_blank'>
+                                <button>{t("view")}</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className='face front'>
                         <img className="front-img" alt='proyecto1' src={discord}></img>
                     </div>
                     <div className='face back'>
@@ -72,21 +90,6 @@ const Proyectos = () => {
                         <p> JavaScript - React</p>
                         <div className='link'>
                             <a href='https://github.com/Nicoov/quiz-aplication' rel="noreferrer" target='_blank'>
-                                <button>{t("view-3")}</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className='card'>
-                    <div className='face front'>
-                        <img className="front-img" alt='proyecto1' src={anime}></img>
-                    </div>
-                    <div className='face back'>
-                        <p>2023</p>
-                        <p> {t('about-pro-5')}</p>
-                        <p> JavaScript - React - Jikan Api</p>
-                        <div className='link'>
-                            <a href='https://github.com/Nicoov/animelist' rel="noreferrer" target='_blank'>
                                 <button>{t("view-3")}</button>
                             </a>
                         </div>
